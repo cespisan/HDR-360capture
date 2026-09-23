@@ -1,0 +1,40 @@
+# RAW / sample imagery
+*.DNG
+*.dng
+*.NEF
+*.CR2
+*.ARW
+/data/
+/samples/
+/bracket*/
+
+# Generated outputs
+*.exr
+*.hdr
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+!docs/**/*.png
+!docs/**/*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.ipynb_checkpoints/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
